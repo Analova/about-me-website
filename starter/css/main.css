@@ -1,0 +1,86 @@
+
+*{
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+    font-family: sans-serif;
+}
+#html, body{
+    background: #eff2f9;
+}
+
+#home{
+   min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ #home .box{
+  background:white;
+    width:100%;
+    max-width:400px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 10px 41px -17px rgba(84,88,247,1)
+}
+
+ #home .box .background-img{
+   background: url("https://res.cloudinary.com/sagacity/image/upload/c_crop,h_1068,w_1600,x_0,y_438/c_limit,dpr_3.0,f_auto,fl_lossy,q_80,w_500/0615_COVER_MNTNS_KICH000884_cmyk_iqrrxg_xkeo8p.jpg");
+       background-position: top bottom;
+     background-size:cover;
+     background-repeat: none;
+     height:100px;
+     
+}
+
+
+ #home .box .content-area{
+padding :20px;
+     
+}
+
+.box .content-area .user-img {
+    height:40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box .content-area .user-img .circle{
+    background: url("https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=1&w=500");
+    background-position: center center;
+     background-size:cover;
+     background-repeat: none;
+     height:100px;
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    position:absolute;
+    top:-75px;
+    box-shadow: 0 0 41px -17px rgba(84,88,247,1)
+    
+}
+
+.box .content-area .info-section .name{
+ font-size:2rem;
+    text-align: center;
+    
+}
+
+.box .content-area .info-section .position{
+ font-size:2rem;
+    text-align: center;
+    
+}
+
+
+.box .content-area .contact-section{
+  display:flex;
+ justify-content: center;
+    margin-bottom: 20px;
+    
+}
