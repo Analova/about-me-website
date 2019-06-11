@@ -190,3 +190,23 @@ padding :20px;
     
 }
 
+@media screen and (max-width: 600px) {
+  
+     #home{
+        padding:0 20px;
+    }
+    .box{
+        height:95vh;
+        
+    }
+}
+
+@media screen and (max-width: 320px) {
+  .box .content-area .contact-section #follow-button{
+        font-size:0.6rem;
+    }
+   .box .content-area .contact-section .email-button{
+        font-size:0.6rem;
+    }
+}
+
